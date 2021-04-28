@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z0og/7yvVSx688iT1hJexyGFxHlGv9ZUwS0PZ14+gS8FH+NJz59zk5/jy3NyDqgUgstwNI7MGNLafCWziIzSEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dioni\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\dioni\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
