@@ -23,18 +23,18 @@ namespace API.Controllers
         }
 
         [HttpPost] //api/carActivities/
-        public async Task<ActionResult> CreateNewActivity(CarActivity carActivity) {
+        public async Task<IActionResult> CreateNewActivity(CarActivity carActivity) {
             return Ok(await Mediator.Send(new CreateActivity.Command{CarActivity = carActivity}));
         }
 
         [HttpPut("{id}")] //api/carActivities/id
-        public async Task<ActionResult> EditOneActivity(Guid id, CarActivity carActivity) {
+        public async Task<IActionResult> EditOneActivity(Guid id, CarActivity carActivity) {
             carActivity.Id = id; //postavljam carActivity na tacan activity, zasto prosledjujem i ID niko ne zna
             return Ok(await Mediator.Send(new EditActivity.Command{CarActivity = carActivity}));
         }
 
         [HttpDelete("{id}")] //api/carActivities/id
-        public async Task<ActionResult> DeleteOneActivity(Guid id) {
+        public async Task<IActionResult> DeleteOneActivity(Guid id) {
             return Ok(await Mediator.Send(new DeleteActivity.Command{Id = id}));
         }
         

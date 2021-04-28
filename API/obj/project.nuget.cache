@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qUpWBAZOSqAyjuUHkF5jVKBuMSW7elXLxHmw9sHnfnYEQHYo1/r8ZfYZriEjMyPBaMf+/SfRYCrHq+Fsnon61w==",
+  "dgSpecHash": "4uV/lTgStiJToIOM82TPNZsbf59FBEWUJ0L5hOeP/8u0XmT2OeaZoY0mE8IqwhW7Q4vI9H5GY9ev0+1iHh/Wiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dioni\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\dioni\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

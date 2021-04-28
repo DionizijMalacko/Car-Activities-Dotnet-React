@@ -5,8 +5,9 @@ namespace Persistence
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
+            Database.EnsureCreated();
         }
 
         public DbSet<CarActivity> Activities {get; set;}

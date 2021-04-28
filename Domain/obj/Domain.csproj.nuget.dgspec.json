@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\Domain.csproj": {}
+    "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\Domain.csproj": {
+    "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dioni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dioni\\AppData\\Roaming\\NuGet\\NuGet.Config",

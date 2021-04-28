@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SZptRczHOCMIM4N1MF7AqriEHtCG9Uny/vBsEecA0Q6xGWkZzIon5zyTKK0Xp4VcINE8j3vzJU9eCszWQq/0A==",
+  "dgSpecHash": "FxbbKJB3iUspMncnzmMd0A3WrVRfi5aM8J3plQCly9OxqoYJXl/3AY/VqmYXcHfIEcynsYsOBQxYovHXhUWu2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dioni\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\dioni\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

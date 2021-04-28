@@ -1496,11 +1496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\API\\API.csproj",
+      "projectPath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\api\\API.csproj",
       "packagesPath": "C:\\Users\\dioni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\API\\obj\\",
+      "outputPath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dioni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1517,8 +1517,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\dioni\\Desktop\\Cars-dotnet-react-app\\Application\\Application.csproj"
+            "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\dioni\\Documents\\GitHub\\Car-Activities-Dotnet-React\\Application\\Application.csproj"
             }
           }
         }

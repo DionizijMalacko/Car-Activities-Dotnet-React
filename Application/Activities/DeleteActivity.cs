@@ -1,7 +1,6 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Domain;
 using MediatR;
 using Persistence;
 
@@ -9,9 +8,10 @@ namespace Application.Activities
 {
     public class DeleteActivity
     {
-        public class Command : IRequest //Command kad se ne vraca nista, Query kada se vraca nesto
+        //Command kad se ne vraca nista, Query kada se vraca nesto
+        public class Command : IRequest
         {
-            public Guid Id { get; set; }
+            public Guid Id { get; set; } //sta prosledjujem kao parametar
         }
 
         public class Handler : IRequestHandler<Command>
@@ -24,9 +24,12 @@ namespace Application.Activities
 
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
+                var activity = await _context.Activities.FindAsync(request.Id);
+                
+                //ovo samo brise iz memorije
+                _context.Remove(activity);
 
-                var activity = _context.Activities.FindAsync(request.Id);
-                _context.Remove(activity); //nzm zasto ne moze _context.Activities.Remove(activity)
+                //ovde onda sacuvamo izmene u bazu pa zbog toga ide await
                 await _context.SaveChangesAsync();
 
                 return Unit.Value;
